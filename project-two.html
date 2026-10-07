@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Two – Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="../index.html">Back to projects</a>
+    <h1 class="project-title">Project Two</h1>
+
+    <div class="slideshow">
+      <div class="tabs" role="tablist"></div>
+
+      <div class="viewport">
+        <div class="track">
+
+          <!-- Each .slide becomes one tab. Copy a block to add more. -->
+          <section class="slide" data-title="Overview">
+            <img src="../images/example-1.jpg" alt="Describe the image">
+            <div>
+              <h2>Overview</h2>
+              <p>Write about the project here.</p>
+            </div>
+          </section>
+
+          <section class="slide" data-title="Process">
+            <img src="../images/example-2.jpg" alt="Describe the image">
+            <div>
+              <h2>Process</h2>
+              <p>How you made it.</p>
+            </div>
+          </section>
+
+          <!-- Text-only slide: add class "text-only", leave out the image -->
+          <section class="slide text-only" data-title="Result">
+            <div>
+              <h2>Result</h2>
+              <p>What came out of it.</p>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+      <div class="controls">
+        <button type="button" class="prev">Previous</button>
+        <span class="counter"></span>
+        <button type="button" class="next">Next</button>
+      </div>
+    </div>
+  </main>
+  <script src="../slideshow.js"></script>
+</body>
+</html>
